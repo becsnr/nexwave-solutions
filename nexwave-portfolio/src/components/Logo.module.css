@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    gap: 5px;
+}
+
+div img {
+    height: 70px;
+}
+
+.title {
+    height: 60px;
+    font-size: .8em;
+    padding: 0;
+    /* line-height: .4; */
+}
+
+.title h2 {
+    font-weight: 400;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    div img {
+        height: 60px;
+    }
+
+    .title {
+        font-size: .7em;
+    }
+}
