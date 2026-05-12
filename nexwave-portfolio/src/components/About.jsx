@@ -13,7 +13,7 @@ function About() {
 
                 <h1>Transformamos ideias em <span>experiências digitais vivas.</span></h1>
 
-                <h2>Somos uma empresa de tecnologia movida pela curiosidade e pela vontade de transformar ideias em experiências digitais vivas. Desenvolvemos soluções inteligentes que conectam pessoas, automatizam processos e impulsionam negócios, com foco em performance, escalabilidade e criatividade no código.</h2>
+                <h2>A NexWave Solutions nasceu com o propósito de unir criatividade, tecnologia e estratégia para criar produtos digitais memoráveis. Acreditamos que cada projeto é uma oportunidade de construir algo único e significativo.</h2>
 
                 <button>Conheça nossos serviços <FaArrowRight /></button>
             </div>
