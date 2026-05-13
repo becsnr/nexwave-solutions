@@ -2,7 +2,7 @@ import styles from './About.module.css'
 
 import { FaArrowRight } from 'react-icons/fa'
 
-import logo from '../../public/nexwave.png'
+import logo from '../assets/about.png'
 
 function About() {
     return (

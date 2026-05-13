@@ -68,7 +68,7 @@
     .about {
         flex-direction: row-reverse;
         justify-content: center;
-        
+        transition: .8s ease;
     }
 
     .slogan {
@@ -84,14 +84,16 @@
         max-width: 400px;
         height: auto;
 
-        filter:
+        border-radius: 20px;
+
+        /* filter:
             drop-shadow(0 0 10px #36066484)
             drop-shadow(0 0 25px #46058361)
-            drop-shadow(0 0 50px #550f935a);
+            drop-shadow(0 0 50px #550f935a); */
     }
 }
 
-@media (min-width: 1180px) {
+@media (min-width: 1200px) {
     .about {
         gap: 200px;
     }
