@@ -22,7 +22,7 @@ nav {
 .menuWrap {
     position: absolute;
     top: 20px;
-    right: 70px;
+    right: 10px;
     border-radius: 40px;
 }
 
@@ -68,7 +68,7 @@ nav {
 }
 
 .menu a:hover {
-    color: #9058eaba;
+    color: #b54efa;
 }
 
 .menuAtivo {
