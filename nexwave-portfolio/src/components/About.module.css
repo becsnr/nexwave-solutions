@@ -4,18 +4,33 @@
     gap: 20px;
 
     min-height: 100vh;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.about::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background: url('../assets/services.png') center center /cover no-repeat;
+
+    z-index: -1;
 }
 
 .slogan {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    text-shadow: 1px 2px 10px #000000;
 }
 
 .slogan p {
-    color: #8B5CF6;
+    color: #b54efa;
     /* font-size: 1em; */
     text-transform: uppercase;
+    font-weight: 600;
 }
 
 .slogan h1 {
@@ -67,12 +82,17 @@
 @media (min-width: 900px) {
     .about {
         flex-direction: row-reverse;
-        justify-content: center;
+        /* justify-content: center; */
         transition: .8s ease;
     }
 
+    .about::before {
+        transform: scaleX(-1);
+    }
+
     .slogan {
-        max-width: 500px;
+        max-width: 500px; /* 500 */
+        transition: .8s ease;
     }
 
     .logo {
@@ -96,5 +116,10 @@
 @media (min-width: 1200px) {
     .about {
         gap: 200px;
+    }
+
+    .slogan {
+        padding-right: 150px;
+        max-width: 700px;
     }
 }

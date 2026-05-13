@@ -2,7 +2,7 @@ import styles from './About.module.css'
 
 import { FaArrowRight } from 'react-icons/fa'
 
-import logo from '../assets/about.png'
+//import logo from '../assets/about.png'
 
 function About() {
     return (
@@ -18,9 +18,9 @@ function About() {
                 <button>Conheça nossos serviços <FaArrowRight /></button>
             </div>
 
-            <div className={styles.logo}>
+            {/* <div className={styles.logo}>
                 <img src={logo} alt="NexWave Solutions" />
-            </div>
+            </div> */}
         </section>
     )
 }
