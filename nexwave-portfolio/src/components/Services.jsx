@@ -13,7 +13,7 @@ import cyber from '../assets/icons/cyber-icone.png';
 
 function Services() {
     return (
-        <section className={styles.services}>
+        <section id='services' className={styles.services}>
             <p>Nossos serviços</p>
 
             <Swiper 

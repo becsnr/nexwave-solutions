@@ -6,7 +6,7 @@ import { FaArrowRight } from 'react-icons/fa'
 
 function About() {
     return (
-        <section className={styles.about}>
+        <section id='about' className={styles.about}>
 
             <div className={styles.slogan}>
                 <p>Sobre nós</p>
