@@ -11,7 +11,7 @@ function Home() {
             </div>
 
             <div className={styles.slogan}>
-                <h1>Tecnologia moldada para <span>grandes ideias</span>.</h1>
+                <h1>Tecnologia moldada para <span>grandes ideias.</span></h1>
                 <p>Soluções criadas com inovação, <br /> criatividade e estratégia.</p>
 
                 <button>Fale conosco</button>
